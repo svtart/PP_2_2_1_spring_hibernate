@@ -19,8 +19,6 @@ public class User {
    @Column(name = "email")
    private String email;
 
-//   @Column(name = "carId")
-//   private Long carId;
 
    @OneToOne(cascade = CascadeType.ALL)
    @JoinColumn(name = "id")
